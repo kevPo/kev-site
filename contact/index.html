@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kevin - Contact</title>
+    <meta name="description" content="Contact Kevin Poston.">
+    <link rel="icon" href="https://framerusercontent.com/images/H6KfUdYCGdowHtjwmruKKgQxQ.png">
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <main class="detail-page contact-page">
+      <a class="back-link" href="../">&lt; Back</a>
+      <h1 class="detail-title contact-title">Contact</h1>
+      <form class="contact-form" name="contact" method="post" action="/contact/success/" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact">
+        <label class="field-name">
+          <span class="sr-only">Name</span>
+          <input name="name" autocomplete="name" placeholder="Name" required>
+        </label>
+        <label class="field-email">
+          <span class="sr-only">Email</span>
+          <input type="email" name="email" autocomplete="email" placeholder="Email" required>
+        </label>
+        <label class="field-message">
+          <span class="sr-only">Message</span>
+          <textarea name="message" placeholder="Message" required></textarea>
+        </label>
+        <button class="button" type="submit">Send</button>
+      </form>
+    </main>
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <p>© 2026 Kevin Poston</p>
+        <nav class="footer-links" aria-label="Footer">
+          <a class="icon-link" href="https://x.com/kevpo" target="_blank" rel="noopener" aria-label="Kevin Poston on X"><img src="/assets/images/x-logo.avif" alt=""></a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
